@@ -4,7 +4,7 @@
 
 #install ruby 3.0.1
 sudo apt purge ruby -y && sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
-sudo apt install git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential lolcat libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev -y
+sudo apt install git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev -y
 curl -sL https://raw.githubusercontent.com/rbenv/rbenv-installer/main/bin/rbenv-installer | bash -
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
