@@ -18,4 +18,4 @@ ruby -v
 sudo apt install sqlite3 npm yarn -y
 gem install rails
 rails --version
-print "done"
+echo "done"
